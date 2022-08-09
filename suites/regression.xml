@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="HealsCheck" verbose="1">
+    <test name="IncludeMe">
+        <classes>
+            <class name="healsCheck.IncludeMe"/>
+        </classes>
+</test>
+    <test name="TheInternet">
+        <classes>
+            <class name="UI.theInternet.TheInternet"/>
+        </classes>
+    </test>
+</suite>
