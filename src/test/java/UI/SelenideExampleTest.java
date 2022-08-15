@@ -32,7 +32,7 @@ public class SelenideExampleTest {
                 "enableVideo", true
         ));
         RemoteWebDriver driver = new RemoteWebDriver(
-                URI.create("http://127.0.0.1:4444/wd/hub").toURL(),
+                URI.create("http://192.168.1.20:4444/wd/hub").toURL(),
                 capabilities
         );
         //щоб selenide викоистовував той драйвер що зазначений вище
